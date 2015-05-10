@@ -1,0 +1,31 @@
+div {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Verdana, Arial, Sans-Serif;
+	margin-right:25px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	}
+
+#clickme {
+	background-color: #008800;
+	color: #FFFFFF;
+}
+
+#notready {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+#fadeclick {
+	background-color: orange;
+	color: #000000;
+	}
