@@ -3,7 +3,8 @@
     $("#notready").mouseenter(function() {
         $("#notready").fadeOut(0);
     });
-    });
+
+});
 	
 	//makes #clickme fadeout upon loading of screen
 	$(document).ready(function() {
