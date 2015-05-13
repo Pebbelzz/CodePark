@@ -13,11 +13,22 @@
     text-align: center;
     line-height:30px;
     font-weight: bold;
+    background-color: #5D0000;
     border-radius: 12px;
 
 }
 
-.move {
-	background-color: #5D0000;
+
+
+#drag2 {
+    background-color: #9966ff;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    line-height: 25px;
 }
 

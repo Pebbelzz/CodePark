@@ -4,3 +4,9 @@ $(document).ready(function(){
 	});
 })
 
+$(document).ready(function(){
+	$("#drag2").draggable({
+		containment: ".static"
+	});
+})
+
