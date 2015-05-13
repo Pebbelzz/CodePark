@@ -1,0 +1,23 @@
+#outer {
+    background: #b3c9be;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+}
+
+#drag {
+    height: 30px;
+    width: 90px;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    line-height:30px;
+    font-weight: bold;
+    border-radius: 12px;
+
+}
+
+.move {
+	background-color: #5D0000;
+}
+
