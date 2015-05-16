@@ -1,0 +1,99 @@
+.page-header {
+  position: relative;
+  height: 80px;
+  background-color: #660033;
+  color: #FFFFCC;
+   border-radius: 15px;
+  line-height: 80px;
+}
+
+
+.page-nav__toggle,
+.page-logo,
+.page-nav,
+.page-nav ul,
+.page-nav li {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 15px;
+}
+
+.page-nav {
+  float: right;
+  
+}
+
+.page-nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-nav li a {
+  display: inline-block;
+  padding: 0 20px;
+  color: #FFFFCC;
+  text-decoration: none;
+  
+  transition: all .25s ease-in-out;
+}
+
+.page-nav li a:hover {
+  background-color: #000;
+}
+
+
+.page-nav__toggle span {
+  display: block;
+  height: 3px;
+  width: 30px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.page-nav__toggle,
+.page-nav__checkbox {
+  display: none;
+}
+@media screen and (max-width: 940px) {
+}
+
+.page-nav__toggle {
+  display: inline-block;
+  float: right; 
+  height: 50px;
+  padding-top: 13px;
+  padding-right: 13px;
+}
+
+.page-nav li {
+  max-height: 0;
+  width: 100%;
+  background-color: #660033;
+  line-height: 40px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.page-header {
+  height: 50px;
+  line-height: 50px;
+}
+
+.page-nav {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  left: 0;
+}
+
+.page-nav ul {
+  width: 100%;
+}
+
+.page-nav a {
+  width: 100%;
+}
+.page-nav__checkbox:checked ~ .page-nav li {
+  max-height: 40px;
+}
