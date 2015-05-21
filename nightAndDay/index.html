@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Events</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="day.css">
+
+</head>
+<body>
+<h1>My Website</h1>
+
+<button data-file="day" id="day">Day</button>
+<button id="night" data-file="night">Night</button>
+
+<script>
+
+(function(){
+	var link = $('link');
+	$('#day').click(function(){
+		$('link').attr('href', 'day.css');
+		$(this).attr('disabled', 'disabled');
+	});
+	$('#night').click(function(){
+		$('link').attr('href', 'night.css');
+		$(this).attr('disabled', 'disabled');
+	});
+	
+})(); 
+
+
+
+</script>
+
+</body>
+</html>
