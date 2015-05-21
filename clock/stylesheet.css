@@ -1,0 +1,35 @@
+#clock {
+    background: #CCCCCC;
+    width: 530px;
+    height: 260px;    
+    position: relative;
+    padding: 18px;
+}
+
+#hour, #minutes{
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    background: #EBEBE0;
+    color: #B22400;
+    font-size: 180px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hour {
+    float: left;
+}
+
+#minutes{
+    float: right;
+    position: relative;
+}
+
+#clock, #hour, #minutes{
+    display: block;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: #000000;
+}
