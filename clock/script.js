@@ -8,6 +8,9 @@ function timeHours(){
       };
 
 function timeMin(){
+    if(minutes <= 9){
+        minutes = "0"+minutes;
+    }
    document.getElementById("minutes").innerHTML = minutes;
       };
 
